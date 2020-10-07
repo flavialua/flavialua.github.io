@@ -1,0 +1,413 @@
+<!DOCTYPE html>	
+  <html lang="pt">
+    <head>	    
+      <meta charset="utf-8">	    
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">	    
+      <meta name="viewport" content="width=device-width, initial-scale=1">	    
+      <title> Portfólio</title>
+   
+   <style>
+
+
+body {  scroll-behavior: smooth;
+
+    background: #fff;
+        -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ 
+ 
+
+.clear{
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #505050;
+    background-color: transparent;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a:active, a:hover {
+    color: #0000008c;
+    text-decoration: none;
+     outline: 0;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+a:focus, a:hover {
+    color: #0000008c;
+    text-decoration: none;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ 
+
+ .container {
+   margin: auto;
+    width: 1000px;
+} 
+  
+.fluid {
+    background: #2832dc;
+    height: 111px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    font-size: 14px;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.logo {
+    background: url(https://images2.imgbox.com/d3/79/n572ZLJg_o.png) top center no-repeat;
+    height: 103px;
+    width: 20%;
+    float: left;
+    position: absolute;
+    margin-top: -43px;
+}
+
+.imagem-welcome {
+    background: url(https://images2.imgbox.com/fc/8a/FPvqosg0_o.png) top left no-repeat;
+    height: 430px;
+}  
+
+
+.card-incio {
+    width: 49%;
+    float: right;
+    margin-right: 9%;
+    margin-top: 6%;
+}
+
+.card-incio h1 {
+    font-size: 3em;
+    font-family: "Nunito Sans";
+    color: rgb(40, 50, 220);
+    font-weight: 200;
+    line-height: 54px;
+}
+
+.card-incio b {
+    font-weight: 900;
+}
+
+.card-incio small {
+    font-size: 15.667px;
+    font-family: "Nunito Sans";
+    color: rgb(95, 95, 95);
+    line-height: 21px;
+    display: block;
+    margin-top: 20px;
+}
+
+.card-incio h1:after {
+    content: "";
+    background: #ffff70;
+    border-radius: 100px;
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    margin-top: -93px;
+    margin-left: 1px;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #ffff70;
+    border-radius: 100px;
+    background: #fed128;
+}
+
+.trabalho-1 {
+    width: 58%;
+    height: 400px;
+    background: #fed128;
+    float: left;
+}
+
+.trabalho-2 {
+    background: #000;
+    width: 42%;
+    height: 400px;
+    float: left;
+}
+
+.titulo-job-2 {
+    opacity: 0;
+    font-size: 3em;
+    font-family: "Nunito Sans";
+    color: rgb(40, 50, 220);
+    font-weight: 200;
+    line-height: 54px;
+    background: #000000e8;
+    height: 50.36%;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    width: 27.5%;
+}
+
+.titulo-job {
+    opacity: 0;
+    font-size: 3em;
+    font-family: "Nunito Sans";
+    color: rgb(40, 50, 220);
+    font-weight: 200;
+    line-height: 54px;
+    background: #000000e8;
+    height: 50.96%;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    width: 39.5%;
+}
+
+.trabalho-1:hover .titulo-job {
+    opacity: 1;
+    padding-top: 40px;
+}
+ 
+.trabalho-2:hover .titulo-job-2 {
+    opacity: 1;
+    padding-top: 40px;
+}
+
+
+.box-1 h2 {
+    font-size: 3em;
+    font-family: "Nunito Sans";
+    color: rgb(40, 50, 220);
+    font-weight: 200;
+    line-height: 54px;
+    margin: 0px;
+}
+
+.box-1 small {
+    font-size: 15.667px;
+    font-family: "Nunito Sans";
+    color: rgb(95, 95, 95);
+    line-height: 23px;
+    display: block;
+}
+
+.box-1 h2:after {
+    content: "";
+    background: #ffff70;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    margin-top: -3.4%;
+    margin-left: 6.47%;
+}
+
+.box-1 {
+    float: left;
+    width: 70%;
+}
+
+.box-2 {
+    float: left;
+    width: 30%;
+}
+.footer {
+    background: #2832dc;
+ 
+    font-size: 15.667px;
+    font-family: "Nunito Sans";
+    color: rgb(255 255 255);
+ 
+    text-align: center;
+    padding: 30px;
+}
+.box-2 li {
+    list-style: none;
+    background: #f4f4f4;
+    border-radius: 21px;
+    margin-bottom: 7px;
+    padding: 6px 21px;
+    font-size: 14.667px;
+    font-family: "Nunito Sans";
+    color: rgb(95, 95, 95);
+    line-height: 23px;
+}
+
+.trabalho-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.trabalho-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width:900px) { 
+  .container {
+    margin: auto;
+    width: 100%;
+}
+
+.fluid {
+    background: #2832dc;
+    height: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.logo {
+    background: url(https://images2.imgbox.com/d3/79/n572ZLJg_o.png) top center no-repeat;
+    height: 97px;
+    width: 100%;
+    float: unset;
+    position: relative;
+    margin-top: 0px;
+}
+
+.menu {
+    font-size: 14px;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    line-height: 32px;
+}
+
+.imagem-welcome {
+    background: url(https://images2.imgbox.com/fc/8a/FPvqosg0_o.png) top left no-repeat;
+    height: auto;
+    background-position: -106px -1px;
+    margin-bottom: 20px;
+}
+.card-incio {
+    width: 100%;
+    float: unset;
+    margin-right: 9%;
+    margin-top: 397px;
+}
+.trabalho-1 {
+    width: 100%;
+    height: auto;
+    background: #fed128;
+    float: unset;
+}
+
+.trabalho-2 {
+    background: #000;
+    width: 100%;
+    height: auto;
+    float: unset;
+}
+
+.box-1 {
+    float: unset;
+    width: 100%;
+}
+
+.box-2 {
+    float: unset;
+    width: 100%;
+  }}
+
+
+
+
+   </style>
+   
+    </head>
+    <div class="fluid"> <div class="container"> 
+  <div class="menu"><div class="logo"></div>
+  <a href="#"> Início </a>
+  <a href="#trabalhos"> Trabalhos </a>
+  <a href="#habilidades"> Habilidades </a>
+   <a href="mailto:flalannie@gmail.com"> Entre em contato </a>
+</div></div></div>
+<div class="imagem-welcome"> 
+<div class="card-incio"> 
+  <h1>  Oi, conheça um pouco do <br>
+meu <b> portfólio </b> </h1>
+
+<small>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Curabitur  am vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo,  </small> </div>
+
+
+</div>
+<br><br> <br><br> <br><br>
+
+<div class="container" id="trabalhos">
+  <a href="https://images2.imgbox.com/7f/e4/qqGFFKUT_o.png" target="_blank"><div class="trabalho-1"> 
+     <div class="titulo-job"> Banner informativo para instagram stories </div>     <img src="https://images2.imgbox.com/7f/e4/qqGFFKUT_o.png">
+    </div> </a>
+  <a href="http://jamesbay.com.br/"><div class="trabalho-2"> <div class="titulo-job-2"> Desenvolvimento gráfico e programação de site</div>  <img src="https://images2.imgbox.com/a6/4b/dZeGj7kp_o.png"> </div> </a>
+   <a href="https://images2.imgbox.com/d3/5c/oSq4i7G6_o.png"><div class="trabalho-2"> <div class="titulo-job-2">  Identidade visual do atual portfólio </div> <img src="https://images2.imgbox.com/d3/5c/oSq4i7G6_o.png">  </div> </a>
+   <a href="https://images2.imgbox.com/86/5e/g2js3Q1L_o.png"><div class="trabalho-1"> <div class="titulo-job"> Identidade visual </div> <img src="https://images2.imgbox.com/86/5e/g2js3Q1L_o.png">   </div> </a>
+
+   <a href="https://images2.imgbox.com/b6/4f/dsamKVxq_o.png" target="_blank"><div class="trabalho-1"> 
+    <div class="titulo-job"> Banner para facebook </div>     <img src="https://images2.imgbox.com/b6/4f/dsamKVxq_o.png">
+   </div> </a>
+ <a href="https://leahlewis.com.br/"><div class="trabalho-2"> <div class="titulo-job-2"> Desenvolvimento gráfico e programação de site</div>  <img src="https://images2.imgbox.com/f3/af/SR6UJyrd_o.png"> </div> </a>
+  <div class="clear"></div>
+
+  <br><br> <br><br>
+  <div class="box-1" id="habilidades">
+    <h2> Habilidades</h2>
+    <small>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Pellentesque in ipsum id orci porta dapibus. Curabitur  am vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo,  </small>  </div>
+
+
+
+    
+  <div class="box-2">
+    <li> Photoshop </li>
+    <li> Sony Vegas </li>
+    <li> Wordpress </li>
+    <li> Html + CSS </li>
+     <li> Desenvolvimento de sites </li>
+   
+  </div>
+ 
+
+  </div>
+  
+  <div class="clear"></div>
+  <br><br> <br><br>
+<div class="footer"> 
+
+  Copyright © - Flavia A.
+</div>
+
+
+</body>
+
+</html>
